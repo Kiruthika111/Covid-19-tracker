@@ -1,8 +1,10 @@
 .worldStats-box {
     height: 100%;
-    width: 250px;
+    width: 100%;
     float: left;
-    margin-right: 80px;
+    margin-right: 40px;
+    margin-left: 40px;
+    
 }
 
 .totalNumbers {
@@ -13,6 +15,7 @@
     width: 100%;
     text-align: center;
     margin-top: 5%;
+    
 }
 
 .about {
@@ -21,4 +24,6 @@
     color: rgba(255,255,255,.7);
     margin-top: 15%;
     font-family: "Nunito";
+   
+    text-align: center;
 }

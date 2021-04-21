@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import NumberFormat from 'react-number-format'
-
+import Faq from './faq.js'
 import './Global.css'
 import WorldStats from '../../components/WorldStats/worldstats'
 
@@ -46,7 +46,12 @@ import WorldStats from '../../components/WorldStats/worldstats'
         
         return (
             <div className="Global">
+                <div className="faq">
+                    <Faq />
+                </div>
+                
                <h1 className="heading">Covid-19 Tracker</h1>
+               
                <div className="world-stats">
                     
                    {Stats}
